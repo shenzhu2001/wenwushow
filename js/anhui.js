@@ -68,7 +68,7 @@
                     // //   regions: regionsArr,
                     //   aspectScale: 1, //用于 scale 地图的长宽比
                     //   zoom: 1,
-                      top: 30
+                      top: 35
                     }
                   ],
                 series: [
