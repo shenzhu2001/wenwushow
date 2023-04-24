@@ -60,11 +60,11 @@
                     //   center: [117.22,31.80],
                     //   layoutSize: '100%',
                     //   layoutCenter: ['50%', '50%'],
-                    //   itemStyle: {
-                    //     // areaColor: 'rgba(70,165,27,0.9)',
-        
-                    //     borderWidth: 1,
-                    //   },
+                         itemStyle: {
+                    // 隐藏地图
+                              normal: {
+                              opacity: 0, // 为 0 时不绘制该图形
+                         }
                     // //   regions: regionsArr,
                     //   aspectScale: 1, //用于 scale 地图的长宽比
                     //   zoom: 1,
