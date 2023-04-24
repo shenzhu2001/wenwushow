@@ -1,0 +1,99 @@
+.navigation {
+    position: absolute;
+    background-color:antiquewhite;
+    top: 0;
+    left: 0;
+    margin: auto;
+    box-shadow: -1px 1px 8px 1px rgb(0 0 0 / 15%);
+}
+
+#qtq {
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+}
+#qtq_name {
+    position: absolute;
+
+    font-size: 20px;
+    color: #cb8606;
+    right: 280px;
+    top: 70px;
+}
+#content {
+    position: absolute;
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border-color: antiquewhite;
+    border-style: solid;
+    border-width: 10px;
+    text-align: center;
+    line-height: 500px;
+    /* background-color: royalblue; */
+    top: 130px;
+    right: 80px;
+    margin: auto;
+    box-shadow: -1px 1px 8px 1px rgb(0 0 0 / 15%);
+    background: antiquewhite no-repeat center / cover;
+}
+/* div里的图片大小不超过content的大小 */
+.image img{
+    position: absolute;
+    vertical-align: middle; 
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;   
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+#content #leftButton {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 200px;
+    left: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#content #leftButton img {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    /* top: 200px; */
+    left: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#content #rightButton {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 200px;
+    right: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#content #rightButton img {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    /* top: 200px; */
+    right: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
