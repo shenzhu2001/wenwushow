@@ -54,8 +54,8 @@ body.bg01 {background-image:url("../img/wenwu.jpeg");}
 }
 #intro1 {
 	position: absolute;
-	top: 70px;
-	left: 180px;
+	top: 30px;
+	left: 150px;
 	width: 410px;
 	height: 370px;
 	border:1px solid #000000;
